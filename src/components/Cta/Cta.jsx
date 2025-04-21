@@ -58,7 +58,7 @@ export default function CTA() {
                     ></textarea>
                     <button
                         type="submit"
-                        className="bg-white text-primary font-semibold px-6 py-3 rounded transition"
+                        className="bg-white text-soft-blue hover:text-primary font-semibold px-6 py-3 rounded transition"
                     >
                         Send Enquiry
                     </button>

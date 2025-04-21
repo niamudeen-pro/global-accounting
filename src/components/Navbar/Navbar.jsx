@@ -4,6 +4,7 @@ import { HiBars3BottomRight } from 'react-icons/hi2';
 import { IoClose } from 'react-icons/io5';
 import _config from '../../constants';
 import { cn } from '../../lib/utils';
+import BRAND from '../../assets/BRAND.png';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -37,11 +38,16 @@ export default function Navbar() {
                         !scrolled && 'border-b border-white/20'
                     )}
                 >
-                    <nav className="m-0 self-stretch flex flex-row items-center justify-between text-left text-base text-white font-body-regular-body-3">
+                    <nav className="flex__between text-white w-full">
                         <a href="#" className="flex items-center space-x-2">
-                            <p className="text-lg sm:text-xl font-semibold text-gray-800flex">
+                            <img
+                                src={BRAND}
+                                alt=""
+                                className="h-14 w-auto object-contain"
+                            />
+                            {/* <p className="text-lg sm:text-xl font-semibold text-gray-800flex">
                                 Azhar <span>Global</span> Accounting
-                            </p>
+                            </p> */}
                         </a>
                         <div
                             className={`absolute left-0 top-16 w-full flex-col gap-6 space-y-4 bg-primary-400 px-7 py-12 transition-all duration-300 lg:static lg:flex lg:w-auto lg:flex-row lg:gap-10 lg:space-y-0 lg:py-0 ${

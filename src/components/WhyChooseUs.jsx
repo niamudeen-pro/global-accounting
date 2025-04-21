@@ -3,11 +3,13 @@ import _config from '../constants/index.js';
 export default function WhyChooseUs() {
     return (
         <section
-            className="bg-primary py-16 px-4 scroll-mt-20 why__choose__us__image"
-            // data-aos="fade-up"
+            className="bg-primary py-16 px-4 scroll-mt-40 why__choose__us__image"
             id="features"
         >
-            <div className="responsive__container text-center text-white space-y-4">
+            <div
+                className="responsive__container text-center text-white space-y-4"
+                data-aos="fade-up"
+            >
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">
                     Why choose us
                 </h2>

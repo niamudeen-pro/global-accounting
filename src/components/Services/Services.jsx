@@ -4,7 +4,7 @@ import _config from '../../constants/index.js';
 export default function Services() {
     return (
         <section
-            className="py-16 responsive__container text-center scroll-mt-20"
+            className="py-16 responsive__container text-center scroll-mt-40"
             id="services"
             data-aos="fade-up"
         >
