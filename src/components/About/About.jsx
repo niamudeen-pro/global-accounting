@@ -11,10 +11,14 @@ export default function About() {
                     About Us
                 </h2>
                 <p className="m-0 text-sm leading-[20px] text-seconday">
-                    At Azhar Global Accounting, we're on a mission to simplify
-                    finance for individuals, startups, and growing businesses.
-                    Though we're new on the scene, our passion for precision,
-                    transparency, and client success runs deep. <br></br>
+                    At
+                    <span className="mx-1 font-semibold text-black">
+                        Azhar Global Accounting
+                    </span>
+                    we're on a mission to simplify finance for individuals,
+                    startups, and growing businesses. Though we're new on the
+                    scene, our passion for precision, transparency, and client
+                    success runs deep. <br></br>
                     <br></br>We understand that accounting isn’t just about
                     numbers—it’s about giving you clarity and confidence in your
                     financial journey. From day one, we've committed ourselves

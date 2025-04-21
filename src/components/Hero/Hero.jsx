@@ -18,7 +18,7 @@ export default function Hero() {
                 >
                     <div className="space-y-2 text-white">
                         <h1 className="text-4xl sm:text-5xl md:text-6xl text-inherit font-bold font-inherit font-body-regular-body-3">
-                            Smart Accounting for
+                            Smart Accounting
                         </h1>
                         <h1 className="text-4xl sm:text-5xl md:text-6xl  text-inherit font-bold  font-body-regular-body-3 ">
                             for{' '}
