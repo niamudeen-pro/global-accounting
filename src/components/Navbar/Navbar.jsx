@@ -43,11 +43,11 @@ export default function Navbar() {
                             <img
                                 src={BRAND}
                                 alt=""
-                                className="h-14 w-auto object-contain"
+                                className="h-[36px] w-auto object-cover"
                             />
-                            {/* <p className="text-lg sm:text-xl font-semibold text-gray-800flex">
-                                Azhar <span>Global</span> Accounting
-                            </p> */}
+                            <p className="font-bold text-[33px] brand__logo__font flex items-center">
+                                A<span className="text-blue-300">G</span>A
+                            </p>
                         </a>
                         <div
                             className={`absolute left-0 top-16 w-full flex-col gap-6 space-y-4 bg-primary-400 px-7 py-12 transition-all duration-300 lg:static lg:flex lg:w-auto lg:flex-row lg:gap-10 lg:space-y-0 lg:py-0 ${
@@ -63,7 +63,7 @@ export default function Navbar() {
                                     href={link.href}
                                     className={cn(
                                         '[text-decoration:none] text-sm relative leading-[24px] flex items-center gap-1',
-                                        'hover:font-semibold transition-all duration-300 pb-2',
+                                        'hover:font-semibold transition-all duration-300',
                                         isOpen && 'border-b border-b-white/20'
                                     )}
                                 >
